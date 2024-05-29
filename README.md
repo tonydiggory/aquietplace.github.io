@@ -23,4 +23,12 @@
 - required packages: requirements.txt
 
 > https://www.djangoproject.com/
+
 > https://devcenter.heroku.com/articles/heroku-cli
+
+- remove .gitmodules if there are any Git problems
+
+E.g:
+git rm --cached path/to/submodule
+rm -rf path/to/submodule
+git commit -m "Removed submodule"
